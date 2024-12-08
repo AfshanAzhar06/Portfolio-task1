@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio Website">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>My Portfolio</h1>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Afshan Azhar, student of BS Software Engineering a passionate web developer with expertise in front-end technologies like HTML, CSS, JavaScript, and React. I love building modern, responsive websites and web applications.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-cards">
+                <div class="card">
+                    <h3>Recommendation System</h3>
+                    <p>Crop Recommendation System designed to help farmers make data-driven decisions about which crops to plant based on various factors such as soil type, climate conditions, and geographical location.</p>
+                </div>
+                <div class="card">
+                    <h3>FoodExpress</h3>
+                    <p>FoodExpress is an online food ordering system designed to provide users with a seamless experience for ordering food from a restaurants. The platform allows customers to browse restaurant menus, customize their orders.</p>
+                </div>
+                <div class="card">
+                    <h3>E-commerce App</h3>
+                    <p>CoffeeBean is an online platform designed for selling a variety of high-quality coffee blends. This system provides coffee enthusiasts with the ability to browse, customize, and purchase different types of coffee</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Afshan Azhar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
